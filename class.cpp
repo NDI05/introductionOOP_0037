@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+class Mobil{
     
+};
+
+int main(){
+    Mobil kt;
 }
