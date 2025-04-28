@@ -18,7 +18,7 @@ public:
         cout << "Masukkan Harga Mobil Anda: ";
         cin >> hargaMobil;
     }
-    void outputPrivate(){
+    void outputDataPrivate(){
         cout << "Harga Mobil: " << hargaMobil << endl;
     }
 };
@@ -29,6 +29,6 @@ int main()
     tatangSutarma.inputData();
     cout << "Nama Mobil: " << tatangSutarma.merkMobil << endl;
     cout << "Tipe Mobil: " << tatangSutarma.tipeMobil << endl;
-    tatangSutarma.outputPrivate();
+    tatangSutarma.outputDataPrivate();
     return 0;
 }
