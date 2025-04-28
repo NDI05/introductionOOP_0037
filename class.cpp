@@ -4,6 +4,7 @@ using namespace std;
 class Mobil{
     public:
         string merkMobil, tipeMobil;
+    private:
         int hargaMobil;
 };
 
