@@ -13,12 +13,22 @@ public:
     void inputData(){
         cout << "Masukkan Nama Mobil Anda: ";
         cin >> merkMobil;
-        cout << "Masukkan tipeMobil Anda: ";
+        cout << "Masukkan tipe Mobil Anda: ";
         cin >> tipeMobil;
+        cout << "Masukkan Harga Mobil Anda: ";
+        cin >> hargaMobil;
+    }
+    void outputPrivate(){
+        cout << "Harga Mobil: " << hargaMobil << endl;
     }
 };
 
 int main()
 {
-    Mobil kt;
+    Mobil tatangSutarma;
+    tatangSutarma.inputData();
+    cout << "Nama Mobil: " << tatangSutarma.merkMobil << endl;
+    cout << "Tipe Mobil: " << tatangSutarma.tipeMobil << endl;
+    tatangSutarma.outputPrivate();
+    return 0;
 }
